@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-    double a,b;
+    int a,b;
 
     cin >> a>> b;
     cout << fixed;
@@ -10,5 +10,6 @@ int main(){
     cout << a * b<< endl;
     cout << a / b<< endl;
     cout << a % b<< endl;
+
     return 0;
 }
